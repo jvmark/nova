@@ -17,6 +17,10 @@ public class RpcResponse {
     this.requestId = requestId;
   }
 
+  public boolean isError(){
+    return error == null;
+  }
+
   public Throwable getError() {
     return error;
   }
