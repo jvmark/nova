@@ -31,7 +31,8 @@
         <!-- SLF4J -->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>1.7.2</version>
         </dependency>
 
         <!-- Spring -->
